@@ -1,8 +1,15 @@
+'use client';
+import NavBar from "./navbar/page";
+import { useEffect } from "react";
+
 export default function Home() {
+  useEffect(()=>{
+    alert("Hii")  
+  });
   return (
     <>
     <div className="Header">
-      <h1>Welcome to Home Page</h1>
+      <h1><NavBar Title="Home Page" /></h1>
     </div>
     <div className="Header">
       <h2><a href="./go"><button>Color Picker Website </button></a></h2>

@@ -1,4 +1,5 @@
 'use client'
+import NavBar from "../navbar/page";
 import { useState } from "react";
 export default function Counter_Website(){
     const [count,setCount] = useState(0);
@@ -25,7 +26,7 @@ export default function Counter_Website(){
     return (
         <>
         <div className="Header">
-            <h1>Counter Website</h1>
+            <h1><NavBar Title="Counter Website" /></h1>
         </div>
 
         <div className="Counter_displays">

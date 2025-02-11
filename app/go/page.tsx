@@ -1,5 +1,5 @@
 'use client';
-
+import NavBar from "../navbar/page";
 import { PhotoshopPicker } from "react-color";
 import { useState } from "react"; 
 export default function Color_picker_fun(){
@@ -7,7 +7,7 @@ export default function Color_picker_fun(){
     return (
         <>
         <div className="Header">
-            <h1>Color Picker Website</h1>
+            <h1><NavBar Title="Color Picker Website" /></h1>
         </div>
         <div className="Counter_display1">
             <p className="color_val">
