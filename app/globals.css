@@ -76,3 +76,16 @@ footer{
   position: fixed;
   bottom: 2;
 }
+.copy{
+  background-color: rgb(247, 216, 14);
+  color: rgb(0, 0, 0);
+  font-size: large;
+  border-radius: 10px;
+}
+.copied{
+  pointer-events: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  border-radius: 10px;
+}

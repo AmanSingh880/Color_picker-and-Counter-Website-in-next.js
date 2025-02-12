@@ -15,8 +15,8 @@ export default function Home() {
     </div>
     <UrlNav />
     <div className="Header">
-      <h2><Link href="/go"><button>Color Picker Website </button></Link></h2>
-      <h2><Link href="/counter"><button> Counter Website </button> </Link></h2>
+      <h2><Link href="/go"><button className="buttonc">Color Picker Website </button></Link></h2>
+      <h2><Link href="/counter"><button className="buttonc"> Counter Website </button> </Link></h2>
     </div>
     </>
   );
