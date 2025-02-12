@@ -1,19 +1,22 @@
 'use client';
-import NavBar from "./navbar/page";
-import { useEffect } from "react";
+import NavBar from "./(Component)/navbar/page";
+import UrlNav from "./(Component)/urlNav/urlNav";
+// import { useEffect } from "react";
+import Link from "next/link";
 
 export default function Home() {
-  useEffect(()=>{
-    alert("Hii")  
-  });
+  // useEffect(()=>{
+  //   alert("Hii")  
+  // });
   return (
     <>
     <div className="Header">
-      <h1><NavBar Title="Home Page" /></h1>
+      <NavBar Title="Home Page" />
     </div>
+    <UrlNav />
     <div className="Header">
-      <h2><a href="./go"><button>Color Picker Website </button></a></h2>
-      <h2><a href="./counter"><button> Counter Website </button> </a></h2>
+      <h2><Link href="/go"><button>Color Picker Website </button></Link></h2>
+      <h2><Link href="/counter"><button> Counter Website </button> </Link></h2>
     </div>
     </>
   );

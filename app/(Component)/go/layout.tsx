@@ -26,6 +26,7 @@ export const metadata: Metadata = {
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           {children}
+        <footer>Developer : AMAN SINGH</footer>
         </body>
       </html>
     );

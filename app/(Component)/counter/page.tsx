@@ -1,4 +1,6 @@
 'use client'
+import Link from "next/link";
+import UrlNav from "../urlNav/urlNav";
 import NavBar from "../navbar/page";
 import { useState } from "react";
 export default function Counter_Website(){
@@ -26,9 +28,9 @@ export default function Counter_Website(){
     return (
         <>
         <div className="Header">
-            <h1><NavBar Title="Counter Website" /></h1>
+            <NavBar Title="Counter Website" />
         </div>
-
+        <UrlNav />
         <div className="Counter_displays">
             <div className="Counter_display1">
                 <button onClick={increment_count} id="add_button"> + </button>
@@ -40,7 +42,6 @@ export default function Counter_Website(){
             </div>
             <div className="Counter_display2">
             <button onClick={reset_button}>Reset</button>
-            <a href="http://localhost:3000/"><button>Home</button></a>
             </div>
         </div>
         </>

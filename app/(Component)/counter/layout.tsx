@@ -11,8 +11,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-    title: "Counter Website",
-    description: "Color Picker Website",
+    title: "Counter",
+    description: "Counter Website",
   };
   
   export default function RootLayout({
@@ -26,6 +26,8 @@ export const metadata: Metadata = {
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           {children}
+
+        <footer>Developer : AMAN SINGH</footer>
         </body>
       </html>
     );

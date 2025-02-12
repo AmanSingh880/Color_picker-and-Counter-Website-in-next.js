@@ -13,7 +13,7 @@ button{
   padding: 1vh;
   border-radius: 18vh;
   margin: 1vh;
-  font-size: 5vh;
+  font-size: 80%;
   color: white;
   background-color: blue;
 }
@@ -47,11 +47,32 @@ button{
   display: flex;
   justify-content: center;
 }
-.Counter_display2 button{
+.Unactive_link{
+  cursor: pointer;
   font-size: large;
   padding: 1vh;
   background-color: antiquewhite;
   color: black;
   border-radius: 10vh;
 
+}
+.Unactive_link:hover{
+  background-color: blue;
+}
+
+.urlnav_parent{
+  display: flex;
+  justify-content: space-around;
+  color: gold;
+}
+.selected_p{
+  font-size: large;
+  padding: 1vh;
+  background-color: rgb(234, 137, 10);
+  color: black;
+  border-radius: 10vh;
+}
+footer{
+  position: fixed;
+  bottom: 2;
 }
