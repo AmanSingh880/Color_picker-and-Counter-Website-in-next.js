@@ -5,7 +5,7 @@ This website contain the 2 tools:
 
 Install Dependences
           **npm i**
-Run
+3. Run
           **npm run dev**
 
 the website is developed in next.js framework of react.
